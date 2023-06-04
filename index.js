@@ -50,8 +50,8 @@ function resetGame() {
 }
 
 function updateStats() {
-  document.querySelector("#face-count").textContent = `CARA - ${face}`;
-  document.querySelector("#cross-count").textContent = `CRUZ - ${cross}`;
+  document.querySelector("#face-count").textContent = `CARA  ${face}`;
+  document.querySelector("#cross-count").textContent = `CRUZ  ${cross}`;
 }
 
 function disableButton() {

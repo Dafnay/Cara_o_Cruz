@@ -12,7 +12,7 @@ body{
     background-size: 100%;
 }
 
-.container{ 
+.game-container{ 
     width: 80%;
     max-width: 500px;
     padding: 35px;
@@ -54,8 +54,8 @@ body{
 .cross{
     transform: rotateY(180deg);
 }
-@keyframes spin-cross{100%{transform: rotateY(1980deg)}}
-@keyframes spin-face{ 100%{transform: rotateY(2160deg)}}
+@keyframes spin-cross{100%{transform: rotateY(2600deg)}}
+@keyframes spin-face{ 100%{transform: rotateY(3000deg)}}
 
 .buttons{
     display: flex;
