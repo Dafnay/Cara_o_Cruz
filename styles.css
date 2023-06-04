@@ -54,7 +54,7 @@ body{
 .cross{
     transform: rotateY(180deg);
 }
-@keyframes spin-cross{100%{transform: rotateY(2600deg)}}
+@keyframes spin-cross{100%{transform: rotateY(2700deg)}}
 @keyframes spin-face{ 100%{transform: rotateY(3000deg)}}
 
 .buttons{
